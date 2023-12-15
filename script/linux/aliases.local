@@ -1,0 +1,4 @@
+# k8s
+alias kx="kubectx"
+alias kn="kubens"
+

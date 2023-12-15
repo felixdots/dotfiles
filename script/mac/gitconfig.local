@@ -1,0 +1,26 @@
+[core]
+ editor = "mate -w"
+[diff]
+ tool = bc4
+[difftool]
+ prompt = false
+[difftool "bc4"]
+ trueExitCode = true
+ path = /usr/local/bin/bcomp
+[merge]
+ tool = bc4
+[mergetool]
+ prompt = false
+[mergetool "bc4"]
+ trueExitCode = true
+ path = /usr/local/bin/bcomp
+[alias]
+ hist = log --all --graph --decorate --oneline
+ br = branch -vv -a
+[user]
+ name = felix.s
+ email = felix.s@kakaoent.com
+[credential]
+ helper = osxkeychain
+[credentials]
+ helper = osxkeychain

@@ -1,0 +1,6 @@
+[alias]
+ hist = log --all --graph --decorate --oneline
+ br = branch -vv -a
+[user]
+ name = felix.s
+ email = felix.s@kakaoent.com

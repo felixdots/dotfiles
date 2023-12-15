@@ -1,0 +1,7 @@
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="agnoster"
+
+plugins=(aliases gcloud kubectl kube-ps1 bgnotify zsh-autosuggestions autojump history-search-multi-word zsh-syntax-highlighting istioctl zsh-gcloud-prompt docker)
+
+source $ZSH/oh-my-zsh.sh
