@@ -1,5 +1,6 @@
 [core]
  editor = "mate -w"
+ excludesfile = ~/.gitignore.local
 [diff]
  tool = bc4
 [difftool]
